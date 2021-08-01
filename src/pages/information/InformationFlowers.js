@@ -42,10 +42,10 @@ const InformationFlowers = () => {
         </p>
       </div>
       <div className="info-photos-bar">
-        <h4>photos</h4> <a href="#">see all</a>
+        <h4>photos</h4> <a href="/">see all</a>
       </div>
       <div className="info-image-container">
-        <img src={flower} alt="flower-picture" />
+        <img src={flower} alt="flower2" />
       </div>
     </div>
   );
