@@ -13,38 +13,44 @@ const Footer = () => {
   });
   return (
     <footer className="footer-page">
-      <Link to="/" className={bgChange.isHome && `active`}>
-        <HiHome
-          onClick={() =>
-            setBgChange({
-              isInfo: false,
-              isHome: true,
-              isAdd: false,
-            })
-          }
-        />
+      <Link
+        to="/"
+        className={bgChange.isHome && `active`}
+        onClick={() =>
+          setBgChange({
+            isInfo: false,
+            isHome: true,
+            isAdd: false,
+          })
+        }
+      >
+        <HiHome />
       </Link>
-      <Link to="/addflower" className={bgChange.isAdd && `active`}>
-        <BsPlus
-          onClick={() =>
-            setBgChange({
-              isInfo: false,
-              isHome: false,
-              isAdd: true,
-            })
-          }
-        />
+      <Link
+        to="/addflower"
+        className={bgChange.isAdd && `active`}
+        onClick={() =>
+          setBgChange({
+            isInfo: false,
+            isHome: false,
+            isAdd: true,
+          })
+        }
+      >
+        <BsPlus />
       </Link>
-      <Link to="/information" className={bgChange.isInfo && `active`}>
-        <AiFillQuestionCircle
-          onClick={() =>
-            setBgChange({
-              isInfo: true,
-              isHome: false,
-              isAdd: false,
-            })
-          }
-        />
+      <Link
+        to="/information"
+        className={bgChange.isInfo && `active`}
+        onClick={() =>
+          setBgChange({
+            isInfo: true,
+            isHome: false,
+            isAdd: false,
+          })
+        }
+      >
+        <AiFillQuestionCircle />
       </Link>
     </footer>
   );
