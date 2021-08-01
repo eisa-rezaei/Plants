@@ -31,7 +31,7 @@ const Home = () => {
         </span>
       </div>
       <div className="hot-flowers">
-        <h4>Hot flowers </h4> <a href="#">see all</a>
+        <h4>Hot flowers </h4> <a href="/">see all</a>
       </div>
       <div className="flowers-image">
         <img src={listFlower1} alt="flower1" />
