@@ -1,0 +1,33 @@
+.footer-page {
+  width: 400px;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: baseline;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+}
+.footer-page a {
+  position: sticky;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-page a:hover {
+  cursor: pointer;
+  color: rgb(65, 129, 108);
+}
+.active {
+  color: #fff;
+  background-color: rgb(74, 179, 170);
+  border-radius: 50%;
+  box-shadow: 1px 5px 10px 0px rgba(34, 34, 34, 0.482);
+}

@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: #222;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: rgb(203, 230, 246);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 50px;
+  transition: all 0.2s linear;
+  text-transform: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.container:hover {
+  box-shadow: 4px 4px 10px 1px rgba(80, 124, 149, 0.623);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pages-container {
+  width: 100%;
+  min-height: 790px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 0.9rem 1.5rem;
+  position: relative;
+}
+a:hover {
+  cursor: pointer;
+  color: rgb(65, 129, 108);
 }
