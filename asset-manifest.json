@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Plants/static/css/main.beb1eb51.chunk.css",
-    "main.js": "/Plants/static/js/main.5d50a2c2.chunk.js",
-    "main.js.map": "/Plants/static/js/main.5d50a2c2.chunk.js.map",
+    "main.js": "/Plants/static/js/main.831a7195.chunk.js",
+    "main.js.map": "/Plants/static/js/main.831a7195.chunk.js.map",
     "runtime-main.js": "/Plants/static/js/runtime-main.f37bf6bc.js",
     "runtime-main.js.map": "/Plants/static/js/runtime-main.f37bf6bc.js.map",
     "static/js/2.0b8b87fd.chunk.js": "/Plants/static/js/2.0b8b87fd.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f37bf6bc.js",
     "static/js/2.0b8b87fd.chunk.js",
     "static/css/main.beb1eb51.chunk.css",
-    "static/js/main.5d50a2c2.chunk.js"
+    "static/js/main.831a7195.chunk.js"
   ]
 }
