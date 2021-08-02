@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useToogleContext } from "../../AllContextes/toggle-bg-Context";
 import { FiSearch } from "react-icons/fi";
 import { AiFillExclamationCircle, AiOutlineRight } from "react-icons/ai";
 import { RiEmotionUnhappyLine } from "react-icons/ri";
@@ -9,10 +10,11 @@ import listFlower2 from "../../images/list-image2.jpeg";
 import "./Home.css";
 
 const Home = () => {
+  const { AddIsInfo } = useToogleContext();
   return (
     <div className="home-page">
       <header className="header">
-        <Link to="/information">
+        <Link to="/information" onClick={AddIsInfo}>
           <img src={flower} alt="flower" />
         </Link>
         <span>
