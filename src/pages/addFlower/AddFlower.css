@@ -21,7 +21,7 @@
 }
 .addflower-icons {
   width: 100%;
-  height: 4rem;
+  height: 3.8rem;
   margin-top: 10px;
   display: flex;
   flex-direction: row;
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #ecf9fd;
+  background-color: #eaf5f9ac;
   transition: all 0.3s linear;
 }
 .addflower-icons-item span {
@@ -53,8 +53,8 @@
 }
 .addflower-div-img {
   width: 100%;
-  margin: 20px auto‍;
   height: 220px;
+  margin: 10px auto‍;
   border-radius: 40px;
   background: url(../../images/flower.jpg);
   background-size: cover;
@@ -102,6 +102,7 @@
   justify-content: space-around;
   border-radius: 20px;
   transition: all 0.3s linear;
+  margin-bottom: 8px;
 }
 .addflower-icons-item:hover {
   box-shadow: 0 5px 15px rgba(122, 183, 227, 0.262);
@@ -124,9 +125,10 @@
 }
 .addflower-img-item img {
   width: 5rem;
-  height: 5rem;
+  height: 100%;
   object-fit: cover;
   border-radius: 20px;
+  background-color: #eaf5f9ac;
 }
 @media only screen and (max-width: 600px) {
   .head-of-addflower {
