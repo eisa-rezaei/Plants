@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { useToogleContext } from "../../AllContextes/toggle-bg-Context";
 import { HiHome } from "react-icons/hi";
 import { BsPlus } from "react-icons/bs";
 import { AiFillQuestionCircle } from "react-icons/ai";
@@ -6,49 +7,25 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
-  const [bgChange, setBgChange] = useState({
-    isHome: false,
-    isAdd: true,
-    isInfo: false,
-  });
+  const { bgColor, AddIsHome, AddIsAdd, AddIsInfo } = useToogleContext();
+  const { isHome, isAdd, isInfo } = bgColor;
+
   return (
     <footer className="footer-page">
-      <Link
-        to="/"
-        className={bgChange.isHome && `active`}
-        onClick={() =>
-          setBgChange({
-            isInfo: false,
-            isHome: true,
-            isAdd: false,
-          })
-        }
-      >
+      <Link to="/" className={isHome ? `active` : null} onClick={AddIsHome}>
         <HiHome />
       </Link>
       <Link
         to="/addflower"
-        className={bgChange.isAdd && `active`}
-        onClick={() =>
-          setBgChange({
-            isInfo: false,
-            isHome: false,
-            isAdd: true,
-          })
-        }
+        className={isAdd ? `active` : null}
+        onClick={AddIsAdd}
       >
         <BsPlus />
       </Link>
       <Link
         to="/information"
-        className={bgChange.isInfo && `active`}
-        onClick={() =>
-          setBgChange({
-            isInfo: true,
-            isHome: false,
-            isAdd: false,
-          })
-        }
+        className={isInfo ? `active` : null}
+        onClick={AddIsInfo}
       >
         <AiFillQuestionCircle />
       </Link>

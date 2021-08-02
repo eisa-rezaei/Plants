@@ -73,7 +73,7 @@
   position: relative;
 }
 .img-bg-div h4 {
-  color: rgb(26, 111, 136);
+  color: rgb(16, 90, 113);
   position: absolute;
   bottom: 50px;
   left: 38px;
@@ -84,7 +84,7 @@
   left: 30px;
   bottom: 25px;
   position: absolute;
-  color: rgb(35, 148, 182);
+  color: rgb(25, 127, 159);
   font-variant: small-caps;
   font-size: 15px;
 }
