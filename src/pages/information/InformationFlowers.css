@@ -55,7 +55,7 @@
 .info-icons-item {
   width: 8rem;
   height: 3rem;
-  border-radius: 40px;
+  border-radius: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

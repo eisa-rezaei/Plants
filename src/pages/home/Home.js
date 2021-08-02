@@ -38,9 +38,11 @@ const Home = () => {
       <div className="hot-flowers">
         <h4>Hot flowers </h4> <a href="/">see all</a>
       </div>
-      <div className="flowers-image">
-        <img src={listFlower1} alt="flower1" />
-        <img src={listFlower2} alt="flower2" />
+      <div className="home-flowers-list">
+        <div className="flowers-image">
+          <img src={listFlower1} alt="flower1" />
+          <img src={listFlower2} alt="flower2" />
+        </div>
       </div>
     </div>
   );

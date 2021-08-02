@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 20px auto;
+  margin: 25px auto;
 }
 .header img {
   width: 3rem;
@@ -35,7 +35,7 @@
 }
 .home-input {
   width: 100%;
-  height: 3rem;
+  height: 3.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -63,7 +63,7 @@
 }
 .img-bg-div {
   width: 100%;
-  margin: 20px auto‍;
+  margin: 25px auto‍;
   height: 150px;
   border-radius: 40px;
   background: url(../../images/flower.jpg);
@@ -92,12 +92,12 @@
   font-size: 1.4rem;
   color: #fff;
   position: absolute;
-  top: 25px;
+  top: 30px;
   right: 30px;
 }
 .hot-flowers {
   width: 100%;
-  height: 1rem;
+  height: 1.2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -115,7 +115,7 @@
 }
 .flowers-image {
   width: 100%;
-  height: 250px;
+  height: 270px;
   display: flex;
   flex-direction: row;
   align-items: center;
