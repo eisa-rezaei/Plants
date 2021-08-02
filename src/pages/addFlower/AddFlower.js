@@ -1,8 +1,8 @@
 import React from "react";
 import { AiFillExclamationCircle } from "react-icons/ai";
 import "./AddFlower.css";
-import listFlower1 from "../../images/list-image1.jpeg";
-import listFlower2 from "../../images/list-image2.jpeg";
+import listFlower1 from "../../images/list-image1.png";
+import listFlower2 from "../../images/list-image2.png";
 
 const AddFlower = () => {
   return (

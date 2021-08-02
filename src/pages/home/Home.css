@@ -40,7 +40,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #ecf9fd;
+  background-color: #eaf5f9ac;
   border-radius: 40px;
   transition: all 0.3s linear;
 }
@@ -134,6 +134,7 @@
   object-fit: fill;
   background-size: 100%;
   transition: all 0.3s linear;
+  background-color: #ecf9fd;
 }
 .header img:hover,
 .header span:hover,

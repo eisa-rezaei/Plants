@@ -4,8 +4,8 @@ import { useToogleContext } from "../../AllContextes/toggle-bg-Context";
 import { FiSearch } from "react-icons/fi";
 import { AiFillExclamationCircle, AiOutlineRight } from "react-icons/ai";
 import flower from "../../images/flower.jpg";
-import listFlower1 from "../../images/list-image1.jpeg";
-import listFlower2 from "../../images/list-image2.jpeg";
+import listFlower1 from "../../images/list-image1.png";
+import listFlower2 from "../../images/list-image2.png";
 import "./Home.css";
 
 const Home = () => {
