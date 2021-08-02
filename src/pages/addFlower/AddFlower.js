@@ -1,6 +1,5 @@
 import React from "react";
 import { AiFillExclamationCircle } from "react-icons/ai";
-import { RiPlantLine } from "react-icons/ri";
 import "./AddFlower.css";
 import listFlower1 from "../../images/list-image1.jpeg";
 import listFlower2 from "../../images/list-image2.jpeg";
