@@ -27,6 +27,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  color: #9aa5a9;
 }
 .addflower-icons-item {
   width: 8rem;
@@ -34,7 +35,6 @@
   border-radius: 60px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   background-color: #ecf9fd;
   transition: all 0.3s linear;
@@ -46,6 +46,10 @@
   align-items: center;
   border-radius: 50%;
   background-color: #dfebf0;
+  margin-left: 11px;
+}
+.addflower-icons-item p {
+  margin-left: 40px;
 }
 .addflower-div-img {
   width: 100%;
