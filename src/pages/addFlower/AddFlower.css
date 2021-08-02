@@ -31,7 +31,7 @@
 .addflower-icons-item {
   width: 8rem;
   height: 3rem;
-  border-radius: 40px;
+  border-radius: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -79,7 +79,7 @@
   font-size: 1.4rem;
   color: #fff;
   position: absolute;
-  top: 25px;
+  top: 30px;
   right: 30px;
 }
 .addflower-img-holder {
