@@ -1,17 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
-import flower from "../../images/flower.jpg";
 import { AiFillExclamationCircle, AiOutlineRight } from "react-icons/ai";
 import { RiEmotionUnhappyLine } from "react-icons/ri";
-import listFlower1 from "../../images/list-image1.jpg";
-import listFlower2 from "../../images/list-image2.jpg";
+import flower from "../../images/flower.jpg";
+import listFlower1 from "../../images/list-image1.jpeg";
+import listFlower2 from "../../images/list-image2.jpeg";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home-page">
       <header className="header">
-        <img src={flower} alt="flower" />
+        <Link to="/information">
+          <img src={flower} alt="flower" />
+        </Link>
         <span>
           <FiSearch />
         </span>

@@ -19,15 +19,16 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  border-radius: 50%;
+  transition: all 0.15s linear;
 }
-
 .footer-page a:hover {
-  cursor: pointer;
-  color: rgb(65, 129, 108);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s linear;
 }
 .active {
   color: #fff;
   background-color: rgb(74, 179, 170);
   border-radius: 50%;
-  box-shadow: 1px 5px 10px 0px rgba(34, 34, 34, 0.482);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }

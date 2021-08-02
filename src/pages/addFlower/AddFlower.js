@@ -3,8 +3,8 @@ import { AiFillExclamationCircle } from "react-icons/ai";
 import { GiPalmTree } from "react-icons/gi";
 import { RiPlantLine, RiTempHotFill } from "react-icons/ri";
 import "./AddFlower.css";
-import listFlower1 from "../../images/list-image1.jpg";
-import listFlower2 from "../../images/list-image2.jpg";
+import listFlower1 from "../../images/list-image1.jpeg";
+import listFlower2 from "../../images/list-image2.jpeg";
 
 const AddFlower = () => {
   return (

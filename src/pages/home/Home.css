@@ -15,6 +15,7 @@
   object-fit: cover;
   padding: 8px;
   border: 1px solid #e0e0e0;
+  transition: all 0.3s linear;
 }
 .header span {
   width: 3rem;
@@ -26,6 +27,7 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #e0e0e0;
+  transition: all 0.3s linear;
 }
 .header span:hover {
   cursor: pointer;
@@ -125,4 +127,12 @@
   border-radius: 20px;
   object-fit: fill;
   background-size: 100%;
+  transition: all 0.3s linear;
+}
+.header img:hover,
+.header span:hover,
+.flowers-image img:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
