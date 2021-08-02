@@ -37,8 +37,8 @@ const Home = () => {
       </div>
       <div className="home-flowers-list">
         <div className="flowers-image">
-          <img src={listFlower1} alt="flower1" />
-          <img src={listFlower2} alt="flower2" />
+          <img src={listFlower1} alt="flower1" key="1" />
+          <img src={listFlower2} alt="flower2" key="2" />
         </div>
       </div>
     </div>
