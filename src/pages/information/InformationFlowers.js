@@ -1,10 +1,8 @@
 import React from "react";
 import { AiFillExclamationCircle } from "react-icons/ai";
-import { BiSun } from "react-icons/bi";
-import flower from "../../images/flower.jpg";
 import { GiDroplets } from "react-icons/gi";
+import flower from "../../images/flower.jpg";
 import "./InformationFlowers.css";
-import { RiTempHotFill } from "react-icons/ri";
 
 const InformationFlowers = () => {
   return (
@@ -21,15 +19,11 @@ const InformationFlowers = () => {
       </div>
       <div className="info-icons">
         <div className="info-icons-item">
-          <span>
-            <RiTempHotFill />
-          </span>
+          <span>🌡</span>
           <p>15'C</p>
         </div>
         <div className="info-icons-item">
-          <span>
-            <BiSun />
-          </span>
+          <span>☀️</span>
           <p>Nice</p>
         </div>
       </div>

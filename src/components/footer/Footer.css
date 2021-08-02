@@ -1,13 +1,18 @@
+@media only screen and (max-width: 600px) {
+  .footer-page {
+    position: fixed !important;
+    margin: 0 auto !important;
+  }
+}
 .footer-page {
   width: 400px;
   height: 4rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-self: baseline;
   font-size: 1.5rem;
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 0px;
 }
 .footer-page a {
@@ -23,7 +28,7 @@
   transition: all 0.15s linear;
 }
 .footer-page a:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(74, 179, 170, 0.3);
   transition: all 0.2s linear;
 }
 .active {

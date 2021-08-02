@@ -1,7 +1,6 @@
 import React from "react";
 import { AiFillExclamationCircle } from "react-icons/ai";
-import { GiPalmTree } from "react-icons/gi";
-import { RiPlantLine, RiTempHotFill } from "react-icons/ri";
+import { RiPlantLine } from "react-icons/ri";
 import "./AddFlower.css";
 import listFlower1 from "../../images/list-image1.jpeg";
 import listFlower2 from "../../images/list-image2.jpeg";
@@ -11,22 +10,18 @@ const AddFlower = () => {
     <div className="addflower-page">
       <header className="head-of-addflower">
         <span>
-          <RiPlantLine />
+          <h3>🌱</h3>
           <h2> planzy</h2>
         </span>
         <p>you have an amazing plant </p>
       </header>
       <div className="addflower-icons">
         <div className="addflower-icons-item">
-          <span>
-            <RiTempHotFill />
-          </span>
+          <span>🌡</span>
           <p>23'C</p>
         </div>
         <div className="addflower-icons-item">
-          <span>
-            <GiPalmTree />
-          </span>
+          <span>🌴</span>
           <p>621.5</p>
         </div>
       </div>

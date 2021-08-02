@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useToogleContext } from "../../AllContextes/toggle-bg-Context";
 import { FiSearch } from "react-icons/fi";
 import { AiFillExclamationCircle, AiOutlineRight } from "react-icons/ai";
-import { RiEmotionUnhappyLine } from "react-icons/ri";
 import flower from "../../images/flower.jpg";
 import listFlower1 from "../../images/list-image1.jpeg";
 import listFlower2 from "../../images/list-image2.jpeg";
@@ -22,9 +21,7 @@ const Home = () => {
         </span>
       </header>
       <div className="home-input">
-        <span>
-          <RiEmotionUnhappyLine />
-        </span>
+        <span>☹️</span>
         <p>you missed watering plants</p>
         <AiOutlineRight />
       </div>

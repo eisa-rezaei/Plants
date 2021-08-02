@@ -1,3 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .header {
+    margin-top: 10px !important;
+  }
+}
 .header {
   width: 100%;
   min-height: 4rem;
@@ -42,18 +47,24 @@
   align-items: center;
   background-color: #ecf9fd;
   border-radius: 40px;
+  transition: all 0.3s linear;
+}
+.home-input:hover {
+  box-shadow: 0px 5px 15px rgba(122, 183, 227, 0.262);
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
 .home-input span {
-  padding: 5px;
-  border-radius: 50%;
-  display: flex;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
   justify-content: center;
-  align-items: center;
+  padding: 5px 5px 5px 7px;
+  border-radius: 50%;
   background-color: #dfebf0;
-  color: rgb(158, 134, 0);
 }
 .home-input p {
-  width: 60%;
+  width: 50%;
   font-size: 15px;
   color: rgb(124, 124, 124);
   background-color: inherit;
@@ -67,8 +78,8 @@
   height: 150px;
   border-radius: 40px;
   background: url(../../images/flower.jpg);
-  background-size: 100%;
-  background-position: bottom;
+  background-size: cover;
+  background-position: center;
   margin: 1.5rem auto;
   position: relative;
 }
@@ -132,7 +143,7 @@
 .header img:hover,
 .header span:hover,
 .flowers-image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.2s linear;
 }

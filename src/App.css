@@ -4,6 +4,22 @@
   box-sizing: border-box;
   text-transform: capitalize;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #fff !important;
+  }
+  .container {
+    margin: 0 auto !important;
+    width: min-content;
+  }
+  .container:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0) !important;
+  }
+  .pages-container {
+    padding: 0px 1.5rem !important;
+    height: min-content;
+  }
+}
 /* --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
 a {
@@ -30,7 +46,7 @@ body {
 }
 .pages-container {
   width: 100%;
-  min-height: 790px;
+  min-height: 780px;
   background-color: #fff;
   margin: 0 auto;
   border-radius: 50px;
