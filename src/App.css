@@ -36,10 +36,6 @@ body {
   border-radius: 50px;
   padding: 0.9rem 1.5rem;
   position: relative;
-  background: url(./images/border.svg) no-repeat;
-  background-size: 101%;
-  background-position: center;
-  background-attachment: local;
   background-color: #fff;
 }
 a:hover {
